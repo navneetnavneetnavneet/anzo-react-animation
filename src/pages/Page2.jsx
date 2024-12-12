@@ -11,13 +11,14 @@ const Page2 = () => {
       transform: "rotateX(-110deg)",
       duration: 3,
       opacity: 0,
-      stagger: 1,
+      stagger: .5,
       scrollTrigger: {
-        trigger: ".rotateText",
+        trigger: "#page2 .rotateText",
+        scroller: "body",
         // markers: true,
         start: "top 80%",
-        end: "top -250%",
-        scrub: 1,
+        end: "top -300%",
+        scrub: 2,
       },
     });
   });
@@ -27,7 +28,7 @@ const Page2 = () => {
       <h3 className="text-2xl font-[anzo3] mb-20">
         © anzo.studio 2024 | designed and developed
       </h3>
-      <div className="rotateText r">
+      <div className="rotateText">
         <h1 className="text-[35vw] font-[anzo1] uppercase leading-[28vw]">
           Impactfull
         </h1>

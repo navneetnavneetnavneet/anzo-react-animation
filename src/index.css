@@ -38,3 +38,7 @@
 .rotateText {
   perspective-origin: 100% 60%;
 }
+
+#page5 {
+  perspective: 2400px;
+}
