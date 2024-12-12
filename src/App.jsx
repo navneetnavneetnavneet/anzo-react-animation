@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Page4 from "./pages/Page4";
 import Page5 from "./pages/Page5";
 import Page6 from "./pages/Page6";
+import Page7 from "./pages/Page7";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Page4 />
       <Page5 />
       <Page6 />
+      <Page7 />
     </>
   );
 };
