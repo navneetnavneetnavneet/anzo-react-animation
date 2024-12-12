@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="w-full flex items-center justify-end ">
+    <div className="w-full flex items-center justify-end fixed px-10 py-16">
       <button className="px-8 py-2 bg-black border-4 border-white hover:bg-[#7B7B7B] text-white font-medium rounded-full">
         Hire Me
       </button>
